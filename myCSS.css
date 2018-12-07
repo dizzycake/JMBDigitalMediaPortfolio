@@ -2,16 +2,30 @@
 /* This is a comment! Text here will be ignored by the browser. */
 body {
 	margin: 0 auto;
+	font:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+     background-color: #FFFFFF;
+     margin: 0;
+     padding: 0;
+     color: #238BD4;
+}
+a:link {
+     color: #000000;
+}
+a:visited {
+     color: #51CCF4;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
 }
 .homePage {
-	background: #000000;
+	background: #FFFBFD;
 }
 .container {
 	width: 960px;
 	margin: 0 auto;
 }
 .header {
-	background: #70637B;
+	background: #FFD4FC;
 	text-align: center;
 	margin: 0px;
 	padding: 5;
@@ -21,7 +35,7 @@ body {
 	
 }
 .nav {
-	background: #CCA4BE;
+	background: #D5F2FF;
 	margin: 0px;
 	padding: 5;
 	float: left;
@@ -37,7 +51,7 @@ body {
 	text-align: center;
 }
 .footer {
-	background: #777777;
+	background: #FFFFFF;
 	margin: 0px;
 	float: left;
 	width: 100%;
