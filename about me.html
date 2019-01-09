@@ -9,18 +9,35 @@
 <body>
 <div class="container">
   <div class="header">
-  	<h1>About Me!</h1>
+<img src="images/webheaderABOUTME.jpg" width="960" height="150" alt=""/>
+<h1>About Me!</h1>
   </div>
   <div class="nav">
     <h3>| <a href="index.html">~HOME~</a> | <a href="raster.html">~RASTER~ </a>| <a href="vector.html">~VECTOR~</a> | <a href="audio.html">~AUDIO~</a> | <a href="animation.html">~ANIMATION~</a> | <a href="video.html">~VIDEO~</a> |</h3>
   </div>
-  <div class="content">
-    <p>Hello!</p>
-    <p>I am a 10th grade student currently exploring the fields of digital media</p>
-    <p>This website will consit of mostly my work from that class and maybe more.</p>
-    <p>Hope you enjoy the stuff you find here! </p>
-  </div>
-  <div class="footer">
+<div class="content">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>  <div class="footer">
     <h4><a href="about me.html">About Me </a>| Contact | Copyright 2018</h4>
   </div>
 </div>
